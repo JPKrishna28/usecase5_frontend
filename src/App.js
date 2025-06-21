@@ -23,7 +23,7 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             <Route path="/history" element={<History />} />
             <Route path="/results/:id" element={<ResultDetail />} />
-            <Route path="/upload" element={<Upload />} />
+
           </Routes>
         </main>
         <Footer />

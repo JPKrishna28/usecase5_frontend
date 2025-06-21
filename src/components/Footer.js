@@ -2,14 +2,19 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="footer mt-5 py-3 bg-light">
-      <div className="container text-center">
-        <span className="text-muted">© 2025 Audio Threat Detector. All rights reserved.</span>
-        <div className="mt-2">
-          <small className="text-muted">
-            Current User: JPKrishna28 |
-            Current Time: {new Date().toLocaleString()}
-          </small>
+    <footer className="footer">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-6">
+            <p className="mb-0">
+              © 2025 Audio Threat Detector. All rights reserved.
+            </p>
+          </div>
+          <div className="col-md-6 text-md-end">
+            <p className="mb-0 text-muted">
+              <small>Version 1.0.0 | Last Updated: 2025-06-21</small>
+            </p>
+          </div>
         </div>
       </div>
     </footer>
